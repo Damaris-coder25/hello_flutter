@@ -5,33 +5,64 @@ import 'package:material_ui/material_ui.dart';
 void main() {
   // runApp afișează pe tot ecranul widget-ul primit, rădăcina arborelui de widget-uri.
   runApp(
-    // Fundalul galben al ecranului.
+    // ColoredBox umple tot spațiul primit cu o culoare.
     ColoredBox(
+      // Culoarea de fundal a ecranului.
       color: Colors.yellow,
-      // Center așază child-ul în mijlocul ecranului.
+
+      // child este widget-ul aflat în interiorul altui widget.
+      // Center așază child-ul în mijlocul spațiului disponibil.
       child: Center(
-        // Container: un fel de <div> din HTML, cu decorație, padding și un child.
+        // Container este un fel de <div> din HTML: o casetă cu decorație, padding și un child.
         child: Container(
+          // BoxDecoration descrie cum arată caseta.
           decoration: BoxDecoration(
-            // Roșu cu opacitate 20%, prin care se vede fundalul galben.
+            // Culoarea casetei: roșu cu opacitate 20%, prin care se vede fundalul galben.
             color: Colors.redAccent.withValues(alpha: 0.2),
+
+            // Colțuri rotunjite, cu raza de 20 de pixeli.
             borderRadius: BorderRadius.circular(20),
+
+            // Bordura: o linie roșie subțire în jurul casetei.
             border: Border.all(color: Colors.red.withValues(alpha: 0.3), width: 1.5),
-            // Umbra, mutată 4 pixeli în jos, face caseta să pară ridicată deasupra fundalului.
+
+            // Umbra casetei; este o listă, pentru că o casetă poate avea mai multe umbre.
             boxShadow: [
               BoxShadow(
+                // Negru aproape transparent, pentru o umbră discretă.
                 color: Colors.black.withValues(alpha: 0.1),
+
+                // Cât de difuză este marginea umbrei.
                 blurRadius: 10,
+
+                // Mută umbra cu 4 pixeli în jos (x = 0, y = 4).
                 offset: const Offset(0, 4),
               ),
             ],
           ),
+
+          // padding: spațiul dintre marginea casetei și conținut, 20 de pixeli pe fiecare latură.
           padding: const EdgeInsets.all(20),
+
+          // Text afișează un șir de caractere pe ecran.
           child: const Text(
+            // Textul afișat.
             'World Hello',
+
             // Fără MaterialApp, trebuie să spunem noi direcția textului: de la stânga la dreapta.
             textDirection: TextDirection.ltr,
-            style: TextStyle(color: Colors.black, letterSpacing: 20, fontSize: 60),
+
+            // TextStyle stabilește cum arată textul.
+            style: TextStyle(
+              // Culoarea literelor.
+              color: Colors.black,
+
+              // Spațiu suplimentar între litere, în pixeli.
+              letterSpacing: 20,
+
+              // Mărimea literelor, în pixeli.
+              fontSize: 60,
+            ),
           ),
         ),
       ),
