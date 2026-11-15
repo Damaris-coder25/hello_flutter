@@ -1,14 +1,27 @@
+// Biblioteca painting din Flutter, de unde vine clasa Color.
 import 'package:flutter/painting.dart';
 
-/// A joke, a color that fits it, and why that color was chosen.
+/// O glumă, o culoare potrivită cu ea și motivul pentru care a fost aleasă culoarea.
+///
+/// Este un record: un grup de valori cu nume, ca un obiect JavaScript sau un record din Java.
+/// `typedef` îi dă tipului un nume scurt, Joke, pe care îl folosim în loc să-l scriem întreg.
 typedef Joke = ({String text, Color color, String colorReason});
 
-/// Well-known, classroom-safe jokes from many areas.
+/// Lista glumelor din aplicație, cunoscute și potrivite pentru clasă, din mai multe domenii.
+///
+/// `const` înseamnă că lista este fixă: este creată o singură dată, la compilare, și nu se poate
+/// modifica. `List<Joke>` arată că fiecare element al listei este un Joke, ca în Java.
 const List<Joke> builtInJokes = [
-  // Programming
+  // Programare
   (
+    // Textul glumei.
     text: 'Why do programmers prefer dark mode? Because light attracts bugs.',
+
+    // Culoarea de fundal, în hexazecimal: 0xFF (opacitatea), apoi roșu, verde și albastru,
+    // ca #1E1E2E din CSS.
     color: Color(0xFF1E1E2E),
+
+    // De ce se potrivește culoarea cu gluma.
     colorReason: 'A near-black editor background: dark mode itself.',
   ),
   (
@@ -107,7 +120,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'Cardboard brown, the box the machine ships in.',
   ),
 
-  // Science
+  // Științe
   (
     text: "Why can't you trust an atom? Because they make up everything.",
     color: Color(0xFF61DAFB),
@@ -179,7 +192,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'The red liquid inside a thermometer.',
   ),
 
-  // Math
+  // Matematică
   (
     text: 'Why was six afraid of seven? Because seven eight nine.',
     color: Color(0xFF800020),
@@ -231,7 +244,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'Sky blue, where things go when they float up.',
   ),
 
-  // Animals
+  // Animale
   (
     text: 'What do you call a fish without eyes? A fsh.',
     color: Color(0xFF1CA3EC),
@@ -303,7 +316,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'The pale ice blue of frost.',
   ),
 
-  // Food
+  // Mâncare
   (
     text: 'Why did the tomato blush? Because it saw the salad dressing.',
     color: Color(0xFFFF6347),
@@ -365,7 +378,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'The brown of gravy.',
   ),
 
-  // School and university
+  // Școală și facultate
   (
     text: 'Why did the student eat his homework? Because the teacher told him it was a piece of cake.',
     color: Color(0xFFF7879A),
@@ -417,7 +430,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'A warm coral, the color of a cafeteria tray of food.',
   ),
 
-  // Wordplay and everyday life
+  // Jocuri de cuvinte și viața de zi cu zi
   (
     text: 'I used to hate facial hair, but then it grew on me.',
     color: Color(0xFF5C4033),
