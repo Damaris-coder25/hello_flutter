@@ -17,16 +17,12 @@ const List<Joke> builtInJokes = [
     colorReason: 'The blue of the Java coffee cup logo.',
   ),
   (
-    text:
-        'How many programmers does it take to change a light bulb? None. '
-        "That's a hardware problem.",
+    text: "How many programmers does it take to change a light bulb? None. That's a hardware problem.",
     color: Color(0xFFFFE066),
     colorReason: 'The warm yellow glow of a light bulb.',
   ),
   (
-    text:
-        'There are 10 types of people in the world: those who understand '
-        "binary and those who don't.",
+    text: "There are 10 types of people in the world: those who understand binary and those who don't.",
     color: Color(0xFF00FF41),
     colorReason: 'The green of ones and zeros on an old terminal screen.',
   ),
@@ -36,16 +32,12 @@ const List<Joke> builtInJokes = [
     colorReason: 'Dollar-bill green, since "arrays" sounds like "a raise".',
   ),
   (
-    text:
-        'A SQL query walks into a bar, walks up to two tables and asks: '
-        '"Can I join you?"',
+    text: 'A SQL query walks into a bar, walks up to two tables and asks: "Can I join you?"',
     color: Color(0xFF8B5A2B),
     colorReason: 'The brown wood of bar tables.',
   ),
   (
-    text:
-        'Why do programmers always mix up Halloween and Christmas? '
-        'Because Oct 31 equals Dec 25.',
+    text: 'Why do programmers always mix up Halloween and Christmas? Because Oct 31 equals Dec 25.',
     color: Color(0xFFFF7518),
     colorReason: 'Pumpkin orange for Halloween, the holiday in the setup.',
   ),
@@ -60,9 +52,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'The golden amber of a drink served at a bar.',
   ),
   (
-    text:
-        'Why was the JavaScript developer sad? '
-        "Because he didn't Node how to Express himself.",
+    text: "Why was the JavaScript developer sad? Because he didn't Node how to Express himself.",
     color: Color(0xFFF7DF1E),
     colorReason: 'The yellow of the JavaScript logo.',
   ),
@@ -82,9 +72,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'The green of the hills where hobbits live.',
   ),
   (
-    text:
-        "Debugging: being the detective in a crime movie where you're also "
-        'the murderer.',
+    text: "Debugging: being the detective in a crime movie where you're also the murderer.",
     color: Color(0xFF8B0000),
     colorReason: 'Dark crime-scene red for a murder mystery.',
   ),
@@ -104,16 +92,12 @@ const List<Joke> builtInJokes = [
     colorReason: 'Gold for the wealth you inherit.',
   ),
   (
-    text:
-        'Why do Python programmers prefer snake_case? '
-        "Because they can't C the camels.",
+    text: "Why do Python programmers prefer snake_case? Because they can't C the camels.",
     color: Color(0xFFC19A6B),
     colorReason: 'Camel tan, for the camels nobody can see.',
   ),
   (
-    text:
-        'Algorithm: a word used by programmers when they do not want to '
-        'explain what they did.',
+    text: 'Algorithm: a word used by programmers when they do not want to explain what they did.',
     color: Color(0xFF9E9E9E),
     colorReason: 'A vague gray for an explanation that stays unclear.',
   ),
@@ -135,16 +119,12 @@ const List<Joke> builtInJokes = [
     colorReason: 'Electric blue for a charged particle.',
   ),
   (
-    text:
-        "I would tell you a chemistry joke, but I know I wouldn't get a "
-        'reaction.',
+    text: "I would tell you a chemistry joke, but I know I wouldn't get a reaction.",
     color: Color(0xFFCCCCCC),
     colorReason: 'A flat gray: nothing happened, no reaction.',
   ),
   (
-    text:
-        'Why are chemists great at solving problems? '
-        'Because they have all the solutions.',
+    text: 'Why are chemists great at solving problems? Because they have all the solutions.',
     color: Color(0xFF00CED1),
     colorReason: 'The turquoise of a liquid solution in a flask.',
   ),
@@ -154,30 +134,22 @@ const List<Joke> builtInJokes = [
     colorReason: 'Red, the color acid turns litmus paper.',
   ),
   (
-    text:
-        'A neutron walks into a bar and asks how much for a drink. '
-        'The bartender replies: "For you, no charge."',
+    text: 'A neutron walks into a bar and asks how much for a drink. The bartender replies: "For you, no charge."',
     color: Color(0xFF808080),
     colorReason: 'Neutral gray for a particle with no charge.',
   ),
   (
-    text:
-        'Why did the biologist break up with the physicist? '
-        'There was no chemistry.',
+    text: 'Why did the biologist break up with the physicist? There was no chemistry.',
     color: Color(0xFFB0C4DE),
     colorReason: 'A cool, pale blue for a romance with no spark.',
   ),
   (
-    text:
-        'Did you hear about the man who got cooled to absolute zero? '
-        "He's 0K now.",
+    text: "Did you hear about the man who got cooled to absolute zero? He's 0K now.",
     color: Color(0xFFE0FFFF),
     colorReason: 'The lightest frosty blue for the coldest possible state.',
   ),
   (
-    text:
-        'What did the scientist say when he found two isotopes of helium? '
-        'HeHe.',
+    text: 'What did the scientist say when he found two isotopes of helium? HeHe.',
     color: Color(0xFFFFB6C1),
     colorReason: 'Pink, like a party balloon filled with helium.',
   ),
@@ -202,9 +174,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'The slate gray of storm clouds.',
   ),
   (
-    text:
-        'What did the thermometer say to the graduated cylinder? '
-        '"You may have graduated, but I have more degrees."',
+    text: 'What did the thermometer say to the graduated cylinder? "You may have graduated, but I have more degrees."',
     color: Color(0xFFDC143C),
     colorReason: 'The red liquid inside a thermometer.',
   ),
@@ -231,16 +201,12 @@ const List<Joke> builtInJokes = [
     colorReason: 'The red of Roman soldiers, a nod to Roman numerals.',
   ),
   (
-    text:
-        'Parallel lines have so much in common. '
-        "It's a shame they'll never meet.",
+    text: "Parallel lines have so much in common. It's a shame they'll never meet.",
     color: Color(0xFF9370DB),
     colorReason: 'A wistful lavender for a love that can never happen.',
   ),
   (
-    text:
-        'Why should you never argue with a 90-degree angle? '
-        'Because it is always right.',
+    text: 'Why should you never argue with a 90-degree angle? Because it is always right.',
     color: Color(0xFF228B22),
     colorReason: 'The green of a check mark, because it is always right.',
   ),
@@ -332,9 +298,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'Cream white, the color of milk.',
   ),
   (
-    text:
-        'What do you get when you cross a snowman and a vampire? '
-        'Frostbite.',
+    text: 'What do you get when you cross a snowman and a vampire? Frostbite.',
     color: Color(0xFFADD8E6),
     colorReason: 'The pale ice blue of frost.',
   ),
@@ -371,9 +335,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'Banana yellow.',
   ),
   (
-    text:
-        'What did the grape do when it got stepped on? '
-        'It let out a little wine.',
+    text: 'What did the grape do when it got stepped on? It let out a little wine.',
     color: Color(0xFF722F37),
     colorReason: 'Wine red.',
   ),
@@ -405,9 +367,7 @@ const List<Joke> builtInJokes = [
 
   // School and university
   (
-    text:
-        'Why did the student eat his homework? '
-        'Because the teacher told him it was a piece of cake.',
+    text: 'Why did the student eat his homework? Because the teacher told him it was a piece of cake.',
     color: Color(0xFFF7879A),
     colorReason: 'The pink frosting on a piece of cake.',
   ),
@@ -422,9 +382,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'Royal purple, the color of kings.',
   ),
   (
-    text:
-        'Why did the teacher wear sunglasses? '
-        'Because her students were so bright.',
+    text: 'Why did the teacher wear sunglasses? Because her students were so bright.',
     color: Color(0xFFFFFF66),
     colorReason: 'A dazzling yellow, bright enough to need sunglasses.',
   ),
@@ -444,9 +402,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'The graphite gray of a freshly sharpened pencil tip.',
   ),
   (
-    text:
-        'Why did the history teacher stay late at school? '
-        'She was going on a date.',
+    text: 'Why did the history teacher stay late at school? She was going on a date.',
     color: Color(0xFFE75480),
     colorReason: 'Romantic pink for a date.',
   ),
@@ -456,9 +412,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'The dark green of a classroom chalkboard.',
   ),
   (
-    text:
-        'Why did the clock in the cafeteria run slow? '
-        'It always went back four seconds.',
+    text: 'Why did the clock in the cafeteria run slow? It always went back four seconds.',
     color: Color(0xFFFF7F50),
     colorReason: 'A warm coral, the color of a cafeteria tray of food.',
   ),
@@ -470,23 +424,17 @@ const List<Joke> builtInJokes = [
     colorReason: 'The dark brown of a beard.',
   ),
   (
-    text:
-        'I told my wife she was drawing her eyebrows too high. '
-        'She looked surprised.',
+    text: 'I told my wife she was drawing her eyebrows too high. She looked surprised.',
     color: Color(0xFF3D2B1F),
     colorReason: 'The dark brown of an eyebrow pencil.',
   ),
   (
-    text:
-        'What do you call a factory that makes okay products? '
-        'A satisfactory.',
+    text: 'What do you call a factory that makes okay products? A satisfactory.',
     color: Color(0xFFA9A9A9),
     colorReason: 'A middle gray: not great, not bad, just okay.',
   ),
   (
-    text:
-        'Why did the scarecrow win an award? '
-        'Because he was outstanding in his field.',
+    text: 'Why did the scarecrow win an award? Because he was outstanding in his field.',
     color: Color(0xFFE4D96F),
     colorReason: 'The straw yellow of a scarecrow and a wheat field.',
   ),
@@ -521,9 +469,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'Salmon pink, a classic seafood.',
   ),
   (
-    text:
-        'Why did the golfer bring two pairs of pants? '
-        'In case he got a hole in one.',
+    text: 'Why did the golfer bring two pairs of pants? In case he got a hole in one.',
     color: Color(0xFF7CBA3D),
     colorReason: 'Golf course green.',
   ),
@@ -533,16 +479,12 @@ const List<Joke> builtInJokes = [
     colorReason: 'The metallic gold of a wristwatch.',
   ),
   (
-    text:
-        'Why did the invisible man turn down the job offer? '
-        "He couldn't see himself doing it.",
+    text: "Why did the invisible man turn down the job offer? He couldn't see himself doing it.",
     color: Color(0xFFE6EEF7),
     colorReason: 'A barely-there blue-white, almost invisible.',
   ),
   (
-    text:
-        'What did the left eye say to the right eye? '
-        'Between you and me, something smells.',
+    text: 'What did the left eye say to the right eye? Between you and me, something smells.',
     color: Color(0xFF9ACD32),
     colorReason: 'A yellow-green, the color of a bad smell in cartoons.',
   ),
@@ -567,9 +509,7 @@ const List<Joke> builtInJokes = [
     colorReason: 'The dark gold of an overripe banana, which fruit flies love.',
   ),
   (
-    text:
-        'What did the janitor say when he jumped out of the closet? '
-        '"Supplies!"',
+    text: 'What did the janitor say when he jumped out of the closet? "Supplies!"',
     color: Color(0xFF4169E1),
     colorReason: 'The royal blue of a janitor uniform.',
   ),
