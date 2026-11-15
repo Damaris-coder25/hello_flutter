@@ -6,7 +6,7 @@ Prima aplicație, [hello_flutter_1](../hello_flutter_1/README.md), arăta mereu 
 
 Ca și primul, acest README este o a doua cale de a învăța Flutter, pe lângă ce facem la curs: înveți Flutter construind aplicații. Citește-l cu codul deschis alături, în `lib/main.dart` și `lib/jokes.dart`.
 
-<img src="readme-assets/screenshot-web-1.png" alt="O glumă despre programare, pe fundal închis la culoare" width="250"> <img src="readme-assets/screenshot-web-2.png" alt="O altă glumă, pe alt fundal" width="250">
+<img src="readme-assets/screenshot-web-1.png" alt="Gluma despre programatori și becuri, pe fundal galben ca lumina unui bec" width="250"> <img src="readme-assets/screenshot-web-2.png" alt="Gluma despre liniile paralele, pe fundal lavandă" width="250">
 
 ## Cuprins
 
