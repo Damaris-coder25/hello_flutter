@@ -6,7 +6,7 @@ Aplicația e mică intenționat. Nu are butoane, pagini sau date, doar câteva w
 
 Acest README este o a doua cale de a învăța Flutter, pe lângă ce facem la curs: înveți Flutter construind aplicații. Citește-l cu codul deschis alături, în `lib/main.dart`.
 
-![Aplicația hello_flutter_1 rulând în browser](screenshots/hello_flutter_1.png)
+<img src="readme-assets/screenshot-web.png" alt="Aplicația hello_flutter_1 rulând în browser" width="300">
 
 ## Cuprins
 
@@ -150,6 +150,7 @@ hello_flutter_1/
     widget_test.dart        testul aplicației
   android/                  proiectul Android, generat de Flutter
   web/                      pagina web în care rulează aplicația
+  readme-assets/            imaginile din acest README
   pubspec.yaml              numele, versiunea și pachetele proiectului
   pubspec.lock              versiunile exacte ale pachetelor folosite
   analysis_options.yaml     regulile de verificare și formatare a codului
