@@ -1,4 +1,4 @@
-package com.example.hello_flutter_2
+package com.eduhoratiu.hello_flutter_2
 
 import io.flutter.embedding.android.FlutterActivity
 

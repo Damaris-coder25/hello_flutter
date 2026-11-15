@@ -13,11 +13,7 @@ analyzer:
   exclude:
     - build/**
     - android/**
-    - ios/**
     - web/**
-    - windows/**
-    - macos/**
-    - linux/**
 
 linter:
   # The lint rules applied to this project can be customized in the
@@ -36,7 +32,3 @@ linter:
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
-
-formatter:
-  page_width: 100
-  trailing_commas: preserve
