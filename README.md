@@ -18,7 +18,7 @@ Un text într-o casetă cu colțuri rotunjite și umbră, pe un fundal galben. P
 
 ### 2. hello_flutter_2
 
-<img src="hello_flutter_2/readme-assets/screenshot-web-1.png" alt="Aplicația hello_flutter_2" width="160">
+<img src="hello_flutter_2/readme-assets/screenshot-web-2.png" alt="Aplicația hello_flutter_2" width="160">
 
 O glumă aleasă la întâmplare dintr-o listă de 100, pe un fundal în culoarea ei. Aplicația se schimbă la fiecare pornire: datele sunt separate de interfață, iar interfața se construiește din ele. Lista de glume a fost scrisă cu ajutorul AI.
 
